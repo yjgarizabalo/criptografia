@@ -1,5 +1,5 @@
 {
-  "name": "criptografia",
+  "name": "criptografia-eje3",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -41,5 +41,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "home": "https://yjgarizabalo.github.io/criptografia"
+  "home": "https://yjgarizabalo.github.io/criptografia-eje3"
 }
