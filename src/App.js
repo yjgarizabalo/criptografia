@@ -22,17 +22,21 @@ function App() {
   return (
     <div className='container-cripto'>
 
+      <h2>Criptografia 📩🔒</h2>
+
       <div className='item-cripto'>
         <label>Mensaje</label>
         <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Ingresar mensaje ✉️" />
         <label>Contraseña</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ingresr contraseña 🔑" />
-        <p>Mensaje Cifrado 🔐: <span>{cifradosText}</span></p>
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ingresar contraseña 🔑" />
+        <p><b>Mensaje Cifrado 🔐:</b></p>
+        <p>{cifradosText}</p>
         <button onClick={cifradoText}>Cifrar</button>
       </div>
 
       <div className='item-cripto'>
-        <p>Mensaje Descifrado 🔑: <span>{descifradosText}</span></p>
+        <p><b>Mensaje Descifrado 🔑</b>:</p>
+        <p>{descifradosText}</p>
         <button onClick={descifradoText}>Descifrar</button>
       </div>
 

@@ -7,6 +7,11 @@
   width: auto;
 }
 
+.container-cripto h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
 .item-cripto {
   display: grid;
   grid-template-columns: auto;
@@ -46,5 +51,6 @@
 }
 
 .item-cripto p {
+  color: #333;
   width: 247px;
 }
