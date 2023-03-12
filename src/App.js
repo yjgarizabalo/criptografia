@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div className='container-cripto'>
-
       <h2>Criptografia 📩🔒</h2>
 
       <div className='item-cripto'>
